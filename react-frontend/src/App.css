@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  /* border: 2px solid green; */
+}
+
+.home-link {
+  /* border: 2px solid red; */
+  margin-left: 20px;
+}
+
+.first-row {
+  /* border: 2px solid green; */
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+#add {
+  /* border: 2px solid green; */
+  width: 120px;
+  margin: 0 20px;
+}
+
+table {
+  border: 20px solid red;
+}
+
+.trow {
+  /* border: 2px solid green; */
+}
+
+thead,td {
+  /* border: 2px solid yellow; */
+  text-align: center;
+  /* width: 20px; */
+}
+
+.add-update, .view {
+  /* border: 2px solid green; */
+  margin-top: 20px;
+}
+
+.add-title, .update-title, .view-title {
+  /* border: 2px solid red; */
+  margin-top: 10px;
+}
+
+.form-group, .row {
+  /* border: 2px solid green; */
+  margin: 15px auto;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  /* border: 2px solid red; */
+  padding-top: 10px;
+}
