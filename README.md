@@ -7,8 +7,8 @@ The frontend interacts with a RESTful API built with Spring Boot which reads and
 
 ### React Frontend
 - <i>Router</i> : stores URLs that direct application flow to various components based on the user's clicks and displays selected components
-- <i>Components</i> : contains UI objects as well as logic to display and manipulate objects which makes up the body and structure of the frontend
-- <i>Service</i> : holds calls to the Java REST API and makes the connection with the axios http library (calls made by components to change or retrieve data)
+- <i>Components</i> : holds UI objects as well as logic to display and manipulate objects which makes up the body and structure of the frontend
+- <i>Service</i> : contains calls to the Java REST API and makes the connection with the axios http library (calls made by components to change or retrieve data)
 
 ### Java Spring Boot Backend
 - <i>Controller Layer</i> : contains REST APIs and processes web requests, then passes processed data to the service layer for logical application on received data
